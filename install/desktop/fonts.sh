@@ -13,3 +13,5 @@ rm -rf iafonts.zip iaFonts
 
 fc-cache
 cd -
+
+yay -Sy ttf-sourcecodepro-nerd

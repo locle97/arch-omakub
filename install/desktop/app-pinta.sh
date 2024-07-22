@@ -1,2 +1,2 @@
 # FIXME: Get this out of snap
-sudo snap install pinta
+yay -Sy pinta

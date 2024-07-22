@@ -1,4 +1,4 @@
-sudo apt install -y gnome-shell-extension-manager pipx
+yay -Sy gnome-shell-extension-manager extension-manager python-pipx
 pipx install gnome-extensions-cli --system-site-packages
 
 # Turn off default Ubuntu extensions
@@ -18,13 +18,6 @@ gext install space-bar@luchrioh
 gext install undecorate@sun.wxg@gmail.com
 gext install Vitals@CoreCoding.com
 gext install AlphabeticalAppGrid@stuarthayhurst
-
-# Manually install Pano (until released version is Gnome 46 compatible)
-wget -O /tmp/pano.zip https://github.com/oae/gnome-shell-pano/releases/download/v23-alpha2/pano@elhan.io.zip
-mkdir -p ~/.local/share/gnome-shell/extensions/
-unzip /tmp/pano.zip -d ~/.local/share/gnome-shell/extensions/pano@elhan.io
-rm /tmp/pano.zip
-sudo apt install -y gir1.2-gda-5.0 gir1.2-gsound-1.0
 
 # Compile gsettings schemas in order to be able to set them
 sudo cp ~/.local/share/gnome-shell/extensions/tactile@lundal.io/schemas/org.gnome.shell.extensions.tactile.gschema.xml /usr/share/glib-2.0/schemas/

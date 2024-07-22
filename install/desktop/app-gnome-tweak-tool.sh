@@ -1,1 +1,1 @@
-sudo apt install -y gnome-tweak-tool
+yay -Sy gnome-tweak-tool
