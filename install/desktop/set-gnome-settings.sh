@@ -10,3 +10,8 @@ gsettings set org.gnome.desktop.calendar show-weekdate true
 # Switch app in curent workspace only
 gsettings set org.gnome.shell.window-switcher current-workspace-only true
 gsettings set org.gnome.shell.app-switcher current-workspace-only true
+
+# Set arch wallpaper
+BACKGROUND_DEST_PATH="~/.local/share/omakub/wallpapers/arch_catppuccin.jpg"
+gsettings set org.gnome.desktop.background picture-uri $BACKGROUND_DEST_PATH
+gsettings set org.gnome.desktop.background picture-uri-dark $BACKGROUND_DEST_PATH
