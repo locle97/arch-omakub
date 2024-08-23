@@ -14,3 +14,5 @@ set +h
 export OMAKUB_PATH="/home/$USER/.local/share/omakub"
 
 eval "$(oh-my-posh init bash --config ~/.local/share/omakub/defaults/oh-my-posh/catppuccin.omp.json)"
+
+neofetch
