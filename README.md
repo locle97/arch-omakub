@@ -4,6 +4,13 @@ Turn a fresh Ubuntu installation into a fully-configured, beautiful, and modern 
 
 Watch the introduction video and read more at [omakub.org](https://omakub.org).
 
+## Install guide
+
+Run below command to start install
+```
+eval "$(wget -qO- https://raw.githubusercontent.com/locle97/arch-omakub/master/boot.sh)"
+```
+
 ## Contributing to the documentation
 
 Please help us improve Omakub's documentation on the [basecamp/omakub-site repository](https://github.com/basecamp/omakub-site).
