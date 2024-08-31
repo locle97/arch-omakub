@@ -1,4 +1,4 @@
-yay -Syu typora
+yay -Syu --needed --noconfirm typora
 
 # Add iA Typora theme
 mkdir -p ~/.config/Typora/themes

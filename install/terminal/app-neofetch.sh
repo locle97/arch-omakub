@@ -1,2 +1,2 @@
 # Display system information in the terminal
-yay -Sy neofetch
+yay -Sy --needed --noconfirm neofetch

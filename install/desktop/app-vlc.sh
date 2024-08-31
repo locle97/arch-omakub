@@ -1,1 +1,1 @@
-yay -Sy vlc
+yay -Sy --needed --noconfirm vlc

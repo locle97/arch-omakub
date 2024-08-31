@@ -1,1 +1,1 @@
-yay -Syu signal-desktop
+yay -Syu --needed --noconfirm signal-desktop

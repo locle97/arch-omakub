@@ -1,4 +1,4 @@
-yay -Sy tmux
+yay -Sy --needed --noconfirm tmux
 
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 

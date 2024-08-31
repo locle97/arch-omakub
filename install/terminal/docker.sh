@@ -1,4 +1,4 @@
-yay -Sy docker docker-buildx
+yay -Sy --needed --noconfirm docker docker-buildx
 sudo usermod -aG docker ${USER}
 
 # Limit log size to avoid running out of disk

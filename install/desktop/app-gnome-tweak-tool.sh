@@ -1,1 +1,1 @@
-yay -Sy gnome-tweak-tool
+yay -Sy --needed --noconfirm gnome-tweak-tool

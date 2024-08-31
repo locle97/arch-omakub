@@ -1,1 +1,1 @@
-yay -Sy localsend
+yay -Sy --needed --noconfirm localsend

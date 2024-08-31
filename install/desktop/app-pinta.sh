@@ -1,2 +1,2 @@
 # FIXME: Get this out of snap
-yay -Sy pinta
+yay -Sy --needed --noconfirm pinta
