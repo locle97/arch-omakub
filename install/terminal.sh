@@ -1,9 +1,3 @@
-# Install yay first
-pacman -S --needed git base-devel
-git clone https://aur.archlinux.org/yay.git
-cd yay
-makepkg -si
-
 # Needed for all installers
 yay -Syu --needed --noconfirm  curl git unzip
 
